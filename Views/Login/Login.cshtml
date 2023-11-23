@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+
+@section css {
+    <link rel="stylesheet" href="/css/home.css" />
+}
+
+<div class="container py-5 my-5">
+    <div class="row gx-lg-5">
+        <div class="col-lg-3 mb-5 mb-lg-0" style="z-index: 10">
+        </div>
+
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+            <div class="card bg-glass">
+                <div class="card-body px-4 py-5 px-md-5">
+                <!-- Caixa branca de fundo -->
+
+                <div class="container">
+                <div class="row marcador align-items-center">
+                    <div class="col text-center">
+                    <a asp-area="" asp-controller="Home" asp-action="Index">
+                        <img class="img-responsive" src="~/imagens/Logo.svg" height="200px" width="200px">
+                    </a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="row ">
+                <div class="col-md-6 mb-4">
+                </div>
+
+                <!-- Email -->
+                <div class="input-group mb-4">
+                    <span class="input-group-text"><img src="~/imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                        width="17px" height="17px"></span>
+                    <div class="form-floating col">
+                    <input type="email" id="form3Example3" class="form-control" placeholder="nome@exemplo.com" />
+                    <label for="form3Example3">E-mail</label>
+                    </div>
+                </div>
+
+                <!-- Senha -->
+                    <div class="input-group mb-4">
+                    <span class="input-group-text"><img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                        width="17px" height="17px"></span>
+                    <div class="form-floating col">
+                    <input type="password" id="form3Example4" class="form-control" placeholder="Digite sua Senha" />
+                    <label for="form3Example4">Senha</label>
+                    </div>
+                </div>
+
+                <div class="form-outline text-center mb-5">
+                    <label class="btn-link btn-floating mx-1" for="form3Example4">Esqueceu a senha?</label>
+                    <a asp-area="" asp-controller="Login" asp-action="Cadastro" class="btn-link btn-floating mx-1" for="form3Example4">Cadastre-se</a>
+                </div>
+
+                <!-- Botão de entrar -->
+                <div class="text-center">
+                            <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" asp-area="" asp-controller="Home" asp-action="Index"
+                               style="width: 150px;">Voltar</a>
+                    <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" href="feed.html"
+                    style="width: 150px;">Entrar</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

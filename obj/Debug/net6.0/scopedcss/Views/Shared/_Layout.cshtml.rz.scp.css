@@ -10,7 +10,7 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 
 .cor3[b-mps7rgf7f7] {
-    background-color: #E6D870;
+    background-color: #E6D870;  
 }
 
 .cor4[b-mps7rgf7f7] {
@@ -54,8 +54,6 @@ nav[b-mps7rgf7f7] {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
-
-
 
 .border-top[b-mps7rgf7f7] {
   border-top: 1px solid #e5e5e5;

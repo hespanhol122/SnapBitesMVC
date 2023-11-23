@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Cadastro Page";
+}
+
+@section css {
+    <link rel="stylesheet" href="/css/home.css" />
+}
+
+
+<div class="container py-5 my-5">
+      <div class="row gx-lg-5">
+        <div class="col-lg-3 mb-5 mb-lg-0" style="z-index: 10">
+        </div>
+
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+          <div class="card bg-glass">
+            <div class="card-body px-4 py-5 px-md-5">
+              <!-- Caixa branca de fundo -->
+
+              <div class="container">
+                <div class="row marcador align-items-center">
+                  <div class="col text-center">
+                    <a href="home.html">
+                      <img class="img-responsive" src="~/imagens/Logo.svg" height="150px" width="150px">
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row ">
+                <div class="col-md-6 mb-2">
+                </div>
+
+                <!-- Email -->
+                <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <img src="~/imagens/alternate_email_FILL0_wght400_GRAD0_opsz24.svg" alt=""
+                                     width="17px" height="17px">
+                            </span>
+                  <div class="form-floating col">
+                    <input type="email" id="form3Example1" class="form-control" placeholder="Digite seu usuario" />
+                    <label for="form3Example1">Nome de usuário</label>
+                  </div>
+                </div>
+
+                <div class="input-group mb-4">
+                  <span class="input-group-text"><img src="~/imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                      width="17px" height="17px"></span>
+                  <div class="form-floating col">
+                    <input type="email" id="form3Example2" class="form-control" placeholder="nome@exemplo.com" />
+                    <label for="form3Example2">E-mail</label>
+                  </div>
+                </div>
+
+                <div class="input-group mb-4">
+                  <span class="input-group-text"><img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                      width="17px" height="17px"></span>
+                  <div class="form-floating col">
+                    <input type="email" id="form3Example3" class="form-control" placeholder="Digite sua senha" />
+                    <label for="form3Example3">Senha</label>
+                  </div>
+                </div>
+
+                <!-- Senha -->
+                <div class="input-group mb-4">
+                  <span class="input-group-text"><img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                      width="17px" height="17px"></span>
+                  <div class="form-floating col">
+                    <input type="password" id="form3Example4" class="form-control" placeholder="Confirme sua senha" />
+                    <label for="form3Example4">Confirme sua senha</label>
+                  </div>
+                </div>
+
+
+                <!-- Botão de entrar -->
+                <div class="text-center">
+                            <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" asp-area="" asp-controller="Home" asp-action="Index"
+                    style="width: 150px;">Voltar</a>
+                  <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" href="Interesses.html"
+                    style="width: 150px;">Cadastre-se</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>

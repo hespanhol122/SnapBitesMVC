@@ -11,7 +11,7 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 
 .cor3[b-mps7rgf7f7] {
-    background-color: #E6D870;
+    background-color: #E6D870;  
 }
 
 .cor4[b-mps7rgf7f7] {
@@ -56,8 +56,6 @@ nav[b-mps7rgf7f7] {
   border-color: #1861ac;
 }
 
-
-
 .border-top[b-mps7rgf7f7] {
   border-top: 1px solid #e5e5e5;
 }
@@ -79,4 +77,15 @@ button.accept-policy[b-mps7rgf7f7] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+/* _content/SnapBites/Views/Shared/_LayoutLogin.cshtml.rz.scp.css */
+body[b-r5uxl7gba2] {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+}
+
+html[b-r5uxl7gba2] {
+    overflow-y: hidden;
 }
