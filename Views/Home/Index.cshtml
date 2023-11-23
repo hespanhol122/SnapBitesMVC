@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section css {
+    <link rel="stylesheet" href="/css/home.css" />
+}
+
+
+<section class="hero alinhamento" id="home">
+    <h1>Bem-vindo ao SnapBites</h1>
+    <p>Explore e apresente pratos deliciosos</p>
+    <a href="login.html" role="button" data-bs-toggle="button" class="btn btn-dark justify-content-center btn-lg">
+        Acessar o site
+    </a>
+</section>
+
+<section class="featured">
+
+    <h2>Publicações em destaque</h2>
+        <div class="publi-container">
+            <div class="publi-item">
+                <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+                <img src="imagens/lanche.jpg" alt="Prato 1">
+            </div>
+            <div class="publi-item">
+                <a href="">
+                    <img src="imagens/macarrao.jpg" alt="Prato 2">
+                </a>
+            </div>
+            <div class="publi-item">
+                <a href="#">
+                    <img src="imagens/batata-frita.jpg" alt="Prato 3">
+                </a>
+            </div>
+        </div>
+</section>
+
+<section class="sobre-item sobre cor5" id="tela-sobre">
+    <div class="sobre-container align-items-center cor5">
+        <div class="sobre-item">
+            <img src="imagens/maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo.jpg" alt="">
+        </div>
+        <div>
+            <h3>Sobre nós</h3>
+            <p>
+                O SnapBites se trata de uma rede social de compartilhamento de fotos, videos e textos através de um feed de
+                postagens,
+                sendo limitada a quantidade de midias por postagens. Prezaremos pelo relacionamento entre os usuário por meios
+                de reações
+                as postagens e a possibilidade de um usuário seguir o outro. Descartamos as compras através do apicativo, a
+                aplicação
+                será apenas para o usuário divulgar seu estabelecimento ou seu produto.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid Contato" id="tela-contato">
+    <h3 id="fale conosco" class="text-center">Fale-Conosco</h3>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">Nome</label>
+            <input placeholder="Nome e Sobrenome" type="text" class="form-control" id="validationTooltip01" value=""
+                   required>
+            <div class="valid-tooltip">
+            </div>
+        </div>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltipUsername" class="form-label">E-mail</label>
+            <div class="input-group has-validation">
+                <input placeholder="exemplo@exemplo.com" type="email" class="form-control" id="validationTooltipUsername"
+                       aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip03" class="form-label">Telefone</label>
+            <input placeholder="(XX) XXXXX-XXXX" type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+            </div>
+        </div>
+        <div class="col-12 position-relative">
+            <label for="validationTooltip04" class="form-label">Assunto</label>
+            <textarea id="validationTooltip04" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <button class="botaoenviar btn btn-dark justify-content-center btn-lg" type="submit">Enviar</button>
+        </div>
+    </form>
+</section>
