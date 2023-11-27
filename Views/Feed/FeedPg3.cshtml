@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Feed - 3";
+}
+
+@section css {
+    <link rel="stylesheet" href="/css/feed.css" />
+}
+
+<div class="container-lg img-feed fundo">
+
+    <div class="row row-cols-md-4 row-cols-sm-2">
+        <div class="col-sm ">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/24.jpg" alt="Imagem 1">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/25.jpg" alt="Imagem 2">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/26.jpg" alt="Imagem 3">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/27.jpg" alt="Imagem 4">
+            </a>
+        </div>
+    </div>
+    <div class="row row-cols-md-4 row-cols-sm-2">
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/28.jpg" alt="Imagem 5">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/29.jpg" alt="Imagem 6">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/30.jpg" alt="Imagem 7">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/31.jpg" alt="Imagem 8">
+            </a>
+        </div>
+    </div>
+    <div class="row row-cols-md-4 row-cols-sm-2">
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/32.jpg" alt="Imagem 5">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/33.jpg" alt="Imagem 6">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/34.jpg" alt="Imagem 7">
+            </a>
+        </div>
+        <div class="col-sm">
+            <a href="#">
+                <img class="image p-2" src="../imagens/comida/comida/35.jpg" alt="Imagem 8">
+            </a>
+        </div>
+    </div>
+    <nav class="paginas mt-3 mb-5 pb-3" aria-label="Page navigation example">
+        <ul class="pagination pagination-md justify-content-center">
+            <li class="page-item">
+                <a class="page-link" asp-area="" asp-controller="Feed" asp-action="FeedPg2" aria-label="Previous" style="color:black">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" asp-area="" asp-controller="Feed" asp-action="Feed" style="color:black">1</a></li>
+            <li class="page-item"><a class="page-link" asp-area="" asp-controller="Feed" asp-action="FeedPg2" style="color:black">2</a></li>
+            <li class="page-item active"><a class="page-link" asp-area="" asp-controller="Feed" asp-action="FeedPg3" style="color:black">3</a></li>
+            <li class="page-item">
+                <a class="page-link" aria-label="Next" style="color:black">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>

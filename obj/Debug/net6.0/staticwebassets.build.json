@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YzoznT/KD3/Ia/qUUdNr6G0UNIbBNiVMte9JOWjbTWQ=",
+  "Hash": "u+SV8eZwyNUqd6L80KhJqwY8fIRwpxYGrNCB7SiXnug=",
   "Source": "SnapBites",
   "BasePath": "_content/SnapBites",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SnapBites\\wwwroot",
       "Source": "SnapBites",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SnapBites.styles.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SnapBites.styles.css",
       "SourceId": "SnapBites",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "SnapBites.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SnapBites.styles.css"
+      "OriginalItemSpec": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SnapBites.styles.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SnapBites.bundle.scp.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SnapBites.bundle.scp.css",
       "SourceId": "SnapBites",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "SnapBites.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,30 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SnapBites.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SnapBites.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\css\\home.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\feed.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
+      "BasePath": "_content/SnapBites",
+      "RelativePath": "css/feed.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\feed.css"
+    },
+    {
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\home.css",
+      "SourceId": "SnapBites",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -68,10 +85,27 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\Interesses.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
+      "BasePath": "_content/SnapBites",
+      "RelativePath": "css/Interesses.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Interesses.css"
+    },
+    {
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\login.css",
+      "SourceId": "SnapBites",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -85,10 +119,27 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\publicacao.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
+      "BasePath": "_content/SnapBites",
+      "RelativePath": "css/publicacao.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\publicacao.css"
+    },
+    {
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\site.css",
+      "SourceId": "SnapBites",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -102,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\favicon.ico",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\account_circle_FILL0_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\account_circle_FILL0_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/account_circle_FILL0_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -136,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\account_circle_FILL0_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\alema.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\alema.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/alema.jpg",
       "AssetKind": "All",
@@ -153,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\alema.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\alternate_email_FILL0_wght400_GRAD0_opsz24.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\alternate_email_FILL0_wght400_GRAD0_opsz24.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/alternate_email_FILL0_wght400_GRAD0_opsz24.svg",
       "AssetKind": "All",
@@ -170,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\alternate_email_FILL0_wght400_GRAD0_opsz24.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\arabica.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\arabica.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/arabica.jpg",
       "AssetKind": "All",
@@ -187,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\arabica.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\arrow_forward_FILL0_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\arrow_forward_FILL0_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/arrow_forward_FILL0_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -204,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\arrow_forward_FILL0_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\batata-frita.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\batata-frita.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/batata-frita.jpg",
       "AssetKind": "All",
@@ -221,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\batata-frita.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\brasileira.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\brasileira.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/brasileira.jpg",
       "AssetKind": "All",
@@ -238,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\brasileira.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Bt-Search.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Bt-Search.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Bt-Search.svg",
       "AssetKind": "All",
@@ -255,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Bt-Search.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\1.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\1.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/1.jpg",
       "AssetKind": "All",
@@ -272,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\10.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\10.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/10.jpg",
       "AssetKind": "All",
@@ -289,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\10.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\11.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\11.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/11.jpg",
       "AssetKind": "All",
@@ -306,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\11.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\12.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\12.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/12.jpg",
       "AssetKind": "All",
@@ -323,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\12.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\13.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\13.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/13.jpg",
       "AssetKind": "All",
@@ -340,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\13.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\14.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\14.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/14.jpg",
       "AssetKind": "All",
@@ -357,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\14.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\15.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\15.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/15.jpg",
       "AssetKind": "All",
@@ -374,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\15.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\16.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\16.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/16.jpg",
       "AssetKind": "All",
@@ -391,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\16.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\17.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\17.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/17.jpg",
       "AssetKind": "All",
@@ -408,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\17.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\18.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\18.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/18.jpg",
       "AssetKind": "All",
@@ -425,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\18.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\19.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\19.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/19.jpg",
       "AssetKind": "All",
@@ -442,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\19.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\2.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\2.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/2.jpg",
       "AssetKind": "All",
@@ -459,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\20.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\20.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/20.jpg",
       "AssetKind": "All",
@@ -476,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\20.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\21.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\21.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/21.jpg",
       "AssetKind": "All",
@@ -493,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\21.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\22.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\22.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/22.jpg",
       "AssetKind": "All",
@@ -510,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\22.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\23.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\23.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/23.jpg",
       "AssetKind": "All",
@@ -527,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\23.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\24.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\24.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/24.jpg",
       "AssetKind": "All",
@@ -544,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\24.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\25.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\25.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/25.jpg",
       "AssetKind": "All",
@@ -561,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\25.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\26.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\26.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/26.jpg",
       "AssetKind": "All",
@@ -578,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\26.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\27.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\27.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/27.jpg",
       "AssetKind": "All",
@@ -595,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\27.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\28.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\28.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/28.jpg",
       "AssetKind": "All",
@@ -612,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\28.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\29.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\29.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/29.jpg",
       "AssetKind": "All",
@@ -629,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\29.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\3.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\3.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/3.jpg",
       "AssetKind": "All",
@@ -646,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\30.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\30.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/30.jpg",
       "AssetKind": "All",
@@ -663,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\30.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\31.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\31.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/31.jpg",
       "AssetKind": "All",
@@ -680,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\31.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\32.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\32.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/32.jpg",
       "AssetKind": "All",
@@ -697,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\32.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\33.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\33.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/33.jpg",
       "AssetKind": "All",
@@ -714,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\33.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\34.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\34.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/34.jpg",
       "AssetKind": "All",
@@ -731,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\34.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\35.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\35.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/35.jpg",
       "AssetKind": "All",
@@ -748,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\35.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\36.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\36.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/36.jpg",
       "AssetKind": "All",
@@ -765,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\36.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\37.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\37.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/37.jpg",
       "AssetKind": "All",
@@ -782,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\37.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\38.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\38.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/38.jpg",
       "AssetKind": "All",
@@ -799,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\38.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\39.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\39.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/39.jpg",
       "AssetKind": "All",
@@ -816,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\39.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\4.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\4.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/4.jpg",
       "AssetKind": "All",
@@ -833,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\40.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\40.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/40.jpg",
       "AssetKind": "All",
@@ -850,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\40.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\5.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\5.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/5.jpg",
       "AssetKind": "All",
@@ -867,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\6.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\6.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/6.jpg",
       "AssetKind": "All",
@@ -884,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\7.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\7.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/7.jpg",
       "AssetKind": "All",
@@ -901,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\8.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\8.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/8.jpg",
       "AssetKind": "All",
@@ -918,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\9.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida\\comida\\9.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida/comida/9.jpg",
       "AssetKind": "All",
@@ -935,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida\\comida\\9.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida-italiana.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida-italiana.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida-italiana.jpg",
       "AssetKind": "All",
@@ -952,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida-italiana.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comida-mexicana.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comida-mexicana.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comida-mexicana.jpg",
       "AssetKind": "All",
@@ -969,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comida-mexicana.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\comment_FILL0_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\comment_FILL0_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/comment_FILL0_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -986,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\comment_FILL0_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\espanha.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\espanha.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/espanha.jpg",
       "AssetKind": "All",
@@ -1003,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\espanha.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Fastfood.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Fastfood.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Fastfood.jpg",
       "AssetKind": "All",
@@ -1020,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Fastfood.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\feche-o-amante-da-comida-tirando-fotos-da-refeicao.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\feche-o-amante-da-comida-tirando-fotos-da-refeicao.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/feche-o-amante-da-comida-tirando-fotos-da-refeicao.jpg",
       "AssetKind": "All",
@@ -1037,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\feche-o-amante-da-comida-tirando-fotos-da-refeicao.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Foto-meu-perfil.webp",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Foto-meu-perfil.webp",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Foto-meu-perfil.webp",
       "AssetKind": "All",
@@ -1054,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Foto-meu-perfil.webp"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\francesa.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\francesa.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/francesa.jpg",
       "AssetKind": "All",
@@ -1071,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\francesa.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Icon.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Icon.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Icon.svg",
       "AssetKind": "All",
@@ -1088,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Icon.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\japonesa.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\japonesa.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/japonesa.jpg",
       "AssetKind": "All",
@@ -1105,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\japonesa.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\lanche.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\lanche.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/lanche.jpg",
       "AssetKind": "All",
@@ -1122,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\lanche.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Linguica 4.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Linguica 4.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Linguica 4.jpg",
       "AssetKind": "All",
@@ -1139,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Linguica 4.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Linguica.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Linguica.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Linguica.jpg",
       "AssetKind": "All",
@@ -1156,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Linguica.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Linguica1.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Linguica1.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Linguica1.jpg",
       "AssetKind": "All",
@@ -1173,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Linguica1.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Linguica3.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Linguica3.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Linguica3.jpg",
       "AssetKind": "All",
@@ -1190,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Linguica3.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\lock_FILL0_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\lock_FILL0_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/lock_FILL0_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -1207,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\lock_FILL0_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Logo Branca.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Logo Branca.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Logo Branca.svg",
       "AssetKind": "All",
@@ -1224,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Logo Branca.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Logo Fundo Branco.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Logo Fundo Branco.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Logo Fundo Branco.svg",
       "AssetKind": "All",
@@ -1241,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Logo Fundo Branco.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Logo.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Logo.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Logo.svg",
       "AssetKind": "All",
@@ -1258,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Logo.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\macarrao.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\macarrao.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/macarrao.jpg",
       "AssetKind": "All",
@@ -1275,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\macarrao.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\mail_FILL0_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\mail_FILL0_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/mail_FILL0_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -1292,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\mail_FILL0_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo.jpg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo.jpg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo.jpg",
       "AssetKind": "All",
@@ -1309,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo.jpg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\menu_FILL0_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\menu_FILL0_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/menu_FILL0_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -1326,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\menu_FILL0_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Plano de fundo desktop.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Plano de fundo desktop.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Plano de fundo desktop.svg",
       "AssetKind": "All",
@@ -1343,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Plano de fundo desktop.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\Plano de fundo.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\Plano de fundo.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/Plano de fundo.svg",
       "AssetKind": "All",
@@ -1360,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\Plano de fundo.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\thumb_down_FILL0_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\thumb_down_FILL0_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/thumb_down_FILL0_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -1377,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\thumb_down_FILL0_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\thumb_up_FILL0_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\thumb_up_FILL0_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/thumb_up_FILL0_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -1394,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\thumb_up_FILL0_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\imagens\\thumb_up_FILL1_wght400_GRAD0_opsz48.svg",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\imagens\\thumb_up_FILL1_wght400_GRAD0_opsz48.svg",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "imagens/thumb_up_FILL1_wght400_GRAD0_opsz48.svg",
       "AssetKind": "All",
@@ -1411,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\imagens\\thumb_up_FILL1_wght400_GRAD0_opsz48.svg"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\js\\site.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1428,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1445,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1462,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1479,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1513,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1530,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1547,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1564,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1581,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1598,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1615,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1649,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1666,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1683,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1700,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1717,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1734,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1751,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1768,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1785,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1802,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1819,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1836,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1853,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1870,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1887,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1904,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1921,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1938,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1955,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1972,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1989,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2006,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2023,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2040,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2057,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2074,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2091,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2108,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2125,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2142,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2159,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2176,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2193,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2210,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2227,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2244,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2261,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2278,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2295,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2312,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2329,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2346,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2363,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2380,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SnapBites",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
       "BasePath": "_content/SnapBites",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

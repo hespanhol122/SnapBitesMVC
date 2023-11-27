@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Feed\Feed - Cópia %282%29.cshtml" />
+    <Content Remove="Views\Feed\Feed - Cópia.cshtml" />
+    <Content Remove="Views\Feed\Index.cshtml" />
     <Content Remove="wwwroot\css\FileName.cs" />
     <Content Remove="wwwroot\css\StyleSheet.css" />
+    <Content Remove="wwwroot\css\StyleSheet1.css" />
   </ItemGroup>
 
 </Project>

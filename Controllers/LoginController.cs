@@ -23,6 +23,12 @@ namespace SnapBites.Controllers
             return View();
         }
 
+        public IActionResult Interesses() 
+        {
+            return View();
+        }
+            
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

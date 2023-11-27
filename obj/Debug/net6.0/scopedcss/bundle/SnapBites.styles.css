@@ -78,6 +78,24 @@ button.accept-policy[b-mps7rgf7f7] {
   white-space: nowrap;
   line-height: 60px;
 }
+/* _content/SnapBites/Views/Shared/_LayoutFeed.cshtml.rz.scp.css */
+body[b-0o9bhs4aqy] {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+}
+
+.cor1[b-0o9bhs4aqy] {
+    background-color: #1B6607;
+}
+
+footer[b-0o9bhs4aqy] {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 /* _content/SnapBites/Views/Shared/_LayoutLogin.cshtml.rz.scp.css */
 body[b-r5uxl7gba2] {
     font-family: 'Space Grotesk', sans-serif;
