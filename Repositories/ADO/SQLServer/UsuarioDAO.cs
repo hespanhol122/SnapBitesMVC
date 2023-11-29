@@ -1,4 +1,6 @@
 ﻿using Snapbites.Models;
+using SnapBites.Controllers;
+using SnapBites.Models;
 using System.Data.SqlClient;
 using System.Runtime.ConstrainedExecution;
 
@@ -138,7 +140,49 @@ namespace SnapBites.Repositories.ADO.SQLServer
                     command.ExecuteNonQuery();
                 }
             }
-
         }
+
+        public bool check(Usuario usuario)
+        {
+            bool result = false;
+
+            using (SqlConnection connection = new SqlConnection(this.connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandText = "SELECT id_usuario FROM Usuario WHERE usuario=@usuario AND senha=@senha";
+                    command.Parameters.Add(new SqlParameter("@usuario", System.Data.SqlDbType.VarChar)).Value = usuario.nome;
+                    command.Parameters.Add(new SqlParameter("@senha", System.Data.SqlDbType.VarChar)).Value = usuario.senha;
+
+                    SqlDataReader dr = command.ExecuteReader();
+                    result = dr.Read();
+                }
+            }
+
+            return result;
+        }
+
+        public LoginResultado getTipo(Usuario usuario)
+        {
+            LoginResultado result = new LoginResultado();
+
+            using (SqlConnection connection = new SqlConnection(this.connectionString))
+            {
+
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandText = "SELECT id_usuario, FROM usuario AS usu" +
+                                          "INNER JOIN niveis AS ni" +
+                                          "ON ()           "
+                }
+            }
+        }
+
+
     }
 }

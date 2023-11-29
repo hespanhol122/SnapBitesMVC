@@ -1,12 +1,15 @@
 ﻿using Snapbites.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Cryptography;
 
 namespace Snapbites.Models
 {
+    [Table("Usuario")]
     public class Usuario
     {
         private static RNGCryptoServiceProvider rngCsp = new RNGCryptoServiceProvider(); // não esquecer de colocar using System.Security.Cryptography;
-
+        
+        
         public int idUsuario { get; set; }
         public string nome { get; set; }
         public string senha { get; set; }
