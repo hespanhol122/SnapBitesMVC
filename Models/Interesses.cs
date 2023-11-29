@@ -3,9 +3,9 @@
 
     public class Interesses
     {
-        public int idInteresses { get; set; }
-        public string nome { get; set; }
+        private int idInteresses { get; set; }
+        private string nome { get; set; }
 
-        public List<interessesUsuario> rInteressesUsuario { get; set; }
+        private List<interessesUsuario> rInteressesUsuario { get; set; }
     }
 }

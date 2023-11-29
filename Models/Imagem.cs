@@ -3,12 +3,12 @@
 
     public class Imagem
     {
-        public int idImagem { get; set; }
-        public string imagemUrl { get; set; }
+        private int idImagem { get; set; }
+        private string imagemUrl { get; set; }
 
-        public int idUsuario { get; set; }
+        private int idUsuario { get; set; }
         public virtual Usuario Usuario { get; set; }
 
-        public List<Publicacao> rPublicacao { get; set; }
+        private List<Publicacao> rPublicacao { get; set; }
     }
 }

@@ -5,16 +5,16 @@ namespace Snapbites.Models
 
     public class Publicacao
     {
-        public int idPublicacao { get; set; }
-        public string descricao { get; set; }
-        public int curtidas { get; set; }
-        public int naoCurtidas { get; set; }
-        public DateTime dataHora { get; set; }
+        private int idPublicacao { get; set; }
+        private string descricao { get; set; }
+        private int curtidas { get; set; }
+        private int naoCurtidas { get; set; }
+        private DateTime dataHora { get; set; }
 
-        public int idImagem { get; set; }
+        private int idImagem { get; set; }
         public virtual Imagem Imagem { get; set; }
 
-        public int idComentario { get; set; }
+        private int idComentario { get; set; }
         public virtual Comentario Comentario { get; set; }
     }
 }

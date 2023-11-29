@@ -92,3 +92,11 @@ C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\obj\Debug\net6.0\SnapBites.pd
 C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\obj\Debug\net6.0\SnapBites.genruntimeconfig.cache
 C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\obj\Debug\net6.0\ref\SnapBites.dll
 C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutFeed.cshtml.rz.scp.css
+C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\obj\Debug\net6.0\SnapBites.csproj.AssemblyReference.cache
+C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\obj\Debug\net6.0\SnapBites.csproj.CopyComplete

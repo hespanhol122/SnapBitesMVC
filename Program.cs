@@ -19,6 +19,8 @@ namespace SnapBites
                 app.UseHsts();
             }
 
+            
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

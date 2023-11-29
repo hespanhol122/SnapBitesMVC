@@ -15,7 +15,7 @@ namespace Snapbites.Models
         public int idUsuario { get; set; }
         public virtual Usuario Usuario { get; set; }
 
-        private void LocalizarCEP()
+        /*private void LocalizarCEP()
         {
             if (!string.isNullOrWhiteSpace(txtCep.Text))
             {
@@ -38,6 +38,7 @@ namespace Snapbites.Models
             }
 
         }
+        */
 
     }
 }
