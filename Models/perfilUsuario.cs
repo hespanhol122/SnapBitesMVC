@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Identity.Client;
+using System;
 
 namespace Snapbites.Models
 {
@@ -12,7 +13,17 @@ namespace Snapbites.Models
         private string sobre { get; set; }
         private string fotoPerfil { get; set; }
 
-        private int idUsuario { get; set; }
-        public virtual Usuario Usuario { get; set; }
+        public perfilUsuario() 
+        {
+            this.idPerfil = 0;
+            this.nome = string.Empty;
+            this.sobrenome = string.Empty;
+            this.dataNascimento = new DateOnly();
+            this.sobre = string.Empty;
+            this.fotoPerfil = string.Empty;
+        }
+
+        /*private int idUsuario { get; set; }
+        public virtual Usuario Usuario { get; set; }*/
     }
 }

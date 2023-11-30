@@ -16,8 +16,17 @@ namespace Snapbites.Models
         public string email { get; set; }
         public int atividade { get; set; }
 
-        // Define o relacionamento com a classe niveis abaixo:
+        public Usuario()
+        {
+            this.idUsuario = 0;
+            this.nome = string.Empty;
+            this.senha = string.Empty;
+            this.email = string.Empty;
+            this.atividade = 0;
+        }
 
+        // Define o relacionamento com a classe niveis abaixo:
+        /*
         public int idNivel { get; set; }
         public Niveis Niveis { get; set; }
 
@@ -33,7 +42,7 @@ namespace Snapbites.Models
         public List<Endereco> rEndereco { get; set; }
 
         public List<interessesUsuario> rInteressesUsuario { get; set; }
-
+        */
         public void Criptografar(string senha)
         {
             this.senha = senha;

@@ -1,7 +1,7 @@
-﻿using Snapbites.Models;
+﻿using Microsoft.Data.SqlClient;
+using Snapbites.Models;
 using SnapBites.Controllers;
 using SnapBites.Models;
-using System.Data.SqlClient;
 using System.Runtime.ConstrainedExecution;
 
 namespace SnapBites.Repositories.ADO.SQLServer
@@ -26,7 +26,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select id_user, nome, senha, email, atividade from usuario";
+                    command.CommandText = "select id_user, nome_usuario, senha, email, atividade from Usuarios";
 
                     SqlDataReader dr = command.ExecuteReader();
 
@@ -35,7 +35,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
                         Usuario usuario= new  Usuario();
 
                         usuario.idUsuario = (int)dr["id_user"];
-                        usuario.nome = dr["nome"].ToString();
+                        usuario.nome = dr["nome_usuario"].ToString();
                         usuario.email = (string)dr["email"];
                         usuario.senha = (string)dr["senha"];
                         usuario.atividade = (int)dr["atividade"];
@@ -59,7 +59,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select id_user, nome, senha, email, atividade from usuario";
+                    command.CommandText = "select id_user, nome_usuario, senha, email, atividade from Usuarios";
                     command.Parameters.Add(new SqlParameter("@id_user", System.Data.SqlDbType.Int)).Value = id;
 
                     SqlDataReader dr = command.ExecuteReader();
@@ -68,7 +68,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
                     {
 
                         usuario.idUsuario = (int)dr["id_user"];
-                        usuario.nome = dr["nome"].ToString();
+                        usuario.nome = dr["nome_usuario"].ToString();
                         usuario.email = (string)dr["email"];
                         usuario.senha = (string)dr["senha"];
                         usuario.atividade = (int)dr["atividade"];                        
@@ -87,7 +87,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "update Usuario, set nome = @nome, senha = @senha, email = @email, atividade = @atividade where id = @id ";
+                    command.CommandText = "update Usuarios, set nome_usuario = @nome, senha = @senha, email = @email, atividade = @atividade where id_user = @id ";
                     command.Parameters.Add(new SqlParameter("@nome", System.Data.SqlDbType.VarChar)).Value = usuario.nome;
                     command.Parameters.Add(new SqlParameter("@senha", System.Data.SqlDbType.VarChar)).Value = usuario.senha;
                     command.Parameters.Add(new SqlParameter("@email", System.Data.SqlDbType.VarChar)).Value = usuario.email;
@@ -107,7 +107,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "insert into Usuario (nome, senha, email, atividade) values (@nome, @senha, @email, @atividade); select convert(int,@@identity) as id_usuario;;";
+                    command.CommandText = "insert into Usuarios (nome_usuario, senha, email, atividade) values (@nome, @senha, @email, @atividade); select convert(int,@@identity) as id_user;;";
 
                     command.Parameters.Add(new SqlParameter("@nome", System.Data.SqlDbType.VarChar)).Value = usuario.nome;
                     command.Parameters.Add(new SqlParameter("@senha", System.Data.SqlDbType.VarChar)).Value = usuario.senha;
@@ -127,14 +127,14 @@ namespace SnapBites.Repositories.ADO.SQLServer
 
                 using (SqlCommand command = new SqlCommand())
                 {
-                    string verifica = command.CommandText = "SELECT Atividade FROM Usuario WHERE id = @id;";
+                    string verifica = command.CommandText = "SELECT Atividade FROM Usuarios WHERE id_user = @id;";
 
                     if (verifica == "0")
                     {
 
                     }
                     command.Connection = connection;
-                    command.CommandText= "UPDADTE Usuario SET Atividade = 0;";
+                    command.CommandText= "UPDADTE Usuarios SET Atividade = 0;";
                     command.Parameters.Add(new SqlParameter("@id", System.Data.SqlDbType.Int)).Value = id;
 
                     command.ExecuteNonQuery();
@@ -152,7 +152,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "SELECT id_usuario FROM Usuario WHERE usuario=@usuario AND senha=@senha";
+                    command.CommandText = "SELECT id_usuario FROM Usuarios WHERE nome_usuario=@usuario AND senha=@senha";
                     command.Parameters.Add(new SqlParameter("@usuario", System.Data.SqlDbType.VarChar)).Value = usuario.nome;
                     command.Parameters.Add(new SqlParameter("@senha", System.Data.SqlDbType.VarChar)).Value = usuario.senha;
 
@@ -166,21 +166,39 @@ namespace SnapBites.Repositories.ADO.SQLServer
 
         public LoginResultado getTipo(Usuario usuario)
         {
+            Niveis niveis = new Niveis();
+
             LoginResultado result = new LoginResultado();
 
             using (SqlConnection connection = new SqlConnection(this.connectionString))
             {
-
+                
                 connection.Open();
 
                 using (SqlCommand command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "SELECT id_usuario, FROM usuario AS usu" +
-                                          "INNER JOIN niveis AS ni" +
-                                          "ON ()           "
+                    command.CommandText = "SELECT usu.id_user, ni.nivel FROM Usuarios AS usu INNER JOIN niveis AS ni ON (ni.id_usuario = usu.id_usuario)WHERE nome_usuario=@nome AND senha=@senha";
+                    command.Parameters.Add(new SqlParameter("nome", System.Data.SqlDbType.VarChar)).Value=usuario.nome;
+                    command.Parameters.Add(new SqlParameter("senha", System.Data.SqlDbType.VarChar)).Value = usuario.senha;
+
+                    using (SqlDataReader dr = command.ExecuteReader())
+                    {
+                        
+                        result.Sucesso = dr.Read();
+
+                        if (result.Sucesso)
+                        {
+                            result.Id = (int)dr["id_usuario"];
+                            result.TipoUsuario = dr["nivel"].ToString();
+
+                            usuario.idUsuario = result.Id;
+                            niveis.nivel = result.TipoUsuario;
+                        }
+                    }
                 }
             }
+            return result;
         }
 
 

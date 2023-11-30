@@ -12,6 +12,16 @@ namespace Snapbites.Models
         public string bairro { get; set; }
         public string cidade { get; set; }
 
+        public Endereco() 
+        {
+            this.idEndereco = 0;
+            this.logradouro = string.Empty; 
+            this.cep = string.Empty;
+            this.numero = string.Empty;
+            this.bairro = string.Empty;
+            this.cidade = string.Empty;
+        }
+
         public int idUsuario { get; set; }
         public virtual Usuario Usuario { get; set; }
 

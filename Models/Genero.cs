@@ -7,7 +7,13 @@
         public int idGenero { get; set; }
         public string genero { get; set; }
 
-        public List<Usuario> rUsuario { get; set; }
+        public Genero() 
+        {
+            this.idGenero = 0;
+            this.genero = string.Empty;
+        }
+
+        /*public List<Usuario> rUsuario { get; set; }*/
 
     }
 }
