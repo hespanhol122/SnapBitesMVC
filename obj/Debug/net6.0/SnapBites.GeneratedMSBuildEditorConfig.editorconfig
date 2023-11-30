@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SnapBites
 build_property.RootNamespace = SnapBites
-build_property.ProjectDir = C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC\
+build_property.ProjectDir = C:\Users\2971392311015\Documents\GitHub\SnapBitesMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\hespa\source\repos\SnapBites\SnapBitesMVC
+build_property.MSBuildProjectDirectory = C:\Users\2971392311015\Documents\GitHub\SnapBitesMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Feed/Feed.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Feed/Feed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxGZWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Feed/FeedPg2.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Feed/FeedPg2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxGZWVkUGcyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Feed/FeedPg3.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Feed/FeedPg3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxGZWVkUGczLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Feed/Publicacao.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Feed/Publicacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxQdWJsaWNhY2FvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Feed/_ViewStart.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Feed/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Home/Index.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Home/_ViewStart.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Home/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Login/Cadastro.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Login/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ2FkYXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Login/Interesses.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Login/Interesses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW50ZXJlc3Nlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Login/Login.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Login/_ViewStart.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Login/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Shared/Error.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/_ViewImports.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mps7rgf7f7
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Shared/_LayoutFeed.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Shared/_LayoutFeed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGZWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-0o9bhs4aqy
 
-[C:/Users/hespa/source/repos/SnapBites/SnapBitesMVC/Views/Shared/_LayoutLogin.cshtml]
+[C:/Users/2971392311015/Documents/GitHub/SnapBitesMVC/Views/Shared/_LayoutLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-r5uxl7gba2

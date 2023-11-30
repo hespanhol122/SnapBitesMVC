@@ -11,7 +11,7 @@ namespace SnapBites.Services
         public Sessao(IHttpContextAccessor httpContextAccessor)
         {
             this.httpContextAccessor = httpContextAccessor;
-            this.tokenSessao = "login";
+            this.tokenSessao = "usuario";
         }
 
         public void addTokenLogin(Usuario usuario)

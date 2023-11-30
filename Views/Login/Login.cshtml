@@ -33,7 +33,7 @@
                         </div>
 
                         <!-- Email -->
-                        <form asp-action="Usuario">
+                        <form asp-controller="Login" asp-action="LoginEntrar" method="post">
                             
                             <span asp-validation-for="nome" class="text-danger"></span>
                             <div class="input-group mb-4">
@@ -55,20 +55,25 @@
                                     <label asp-for="senha" for="form3Example4">Senha</label>
                                 </div>
                             </div>
-                            
+                        
 
+                            <div class="form-outline text-center mb-5">
+                                <label class="btn-link btn-floating mx-1" for="form3Example4">Esqueceu a senha?</label>
+                                <a asp-area="" asp-controller="Login" asp-action="Cadastro" class="btn-link btn-floating mx-1" for="form3Example4">Cadastre-se</a>
+                            </div>
+
+                            <!-- Botão de entrar -->
+                            <div class="text-center">
+                                <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-dark justify-content-center btn-lg btn-color" type="submit" style="width: 150px;">Voltar</a>
+                                <a class="btn btn-dark justify-content-center btn-lg btn-color" type="submit" style="width: 150px;">Entrar</a>
+                            </div>
+                             @{
+                if (ViewBag.Error != null)
+                {
+                    <div>@ViewBag.Error</div>
+                }
+            }
                         </form>
-
-                        <div class="form-outline text-center mb-5">
-                            <label class="btn-link btn-floating mx-1" for="form3Example4">Esqueceu a senha?</label>
-                            <a asp-area="" asp-controller="Login" asp-action="Cadastro" class="btn-link btn-floating mx-1" for="form3Example4">Cadastre-se</a>
-                        </div>
-
-                        <!-- Botão de entrar -->
-                        <div class="text-center">
-                            <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-dark justify-content-center btn-lg btn-color" type="submit" style="width: 150px;">Voltar</a>
-                            <a class="btn btn-dark justify-content-center btn-lg btn-color" type="submit" style="width: 150px;">Entrar</a>
-                        </div>
                     </div>
                 </div>
             </div>
