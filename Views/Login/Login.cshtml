@@ -1,4 +1,4 @@
-﻿@model Snapbites.Models.Usuario
+﻿@model SnapBites.Models.UsuarioViewModel
 
 @{
     ViewData["Title"] = "Login";
@@ -16,14 +16,14 @@
         <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
             <div class="card bg-glass">
                 <div class="card-body px-4 py-5 px-md-5">
-                <!-- Caixa branca de fundo -->
+                    <!-- Caixa branca de fundo -->
 
                     <div class="container">
                         <div class="row marcador align-items-center">
                             <div class="col text-center">
-                            <a asp-area="" asp-controller="Home" asp-action="Index">
-                                <img class="img-responsive" src="~/imagens/Logo.svg" height="200px" width="200px">
-                            </a>
+                                <a asp-area="" asp-controller="Home" asp-action="Index">
+                                    <img class="img-responsive" src="~/imagens/Logo.svg" height="200px" width="200px">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -34,13 +34,15 @@
 
                         <!-- Email -->
                         <form asp-controller="Login" asp-action="LoginEntrar" method="post">
-                            
+
                             <span asp-validation-for="nome" class="text-danger"></span>
                             <div class="input-group mb-4">
-                                <span class="input-group-text"><img src="~/imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt=""
-                                    width="17px" height="17px"></span>
+                                <span class="input-group-text">
+                                    <img src="~/imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                                         width="17px" height="17px">
+                                </span>
                                 <div class="form-floating col">
-                                    
+
                                     <input asp-for="nome" id="form3Example3" class="form-control" placeholder="Nome do usuário" />
                                     <label asp-for="nome" for="form3Example3">Usuário</label>
                                 </div>
@@ -48,14 +50,16 @@
                             <!-- Senha -->
                             <span asp-validation-for="senha" class="text-danger"></span>
                             <div class="input-group mb-4">
-                                <span class="input-group-text"><img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
-                                    width="17px" height="17px"></span>
+                                <span class="input-group-text">
+                                    <img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                                         width="17px" height="17px">
+                                </span>
                                 <div class="form-floating col">
                                     <input asp-for="senha" type="password" id="form3Example4" class="form-control" placeholder="Digite sua Senha" />
                                     <label asp-for="senha" for="form3Example4">Senha</label>
                                 </div>
                             </div>
-                        
+
 
                             <div class="form-outline text-center mb-5">
                                 <label class="btn-link btn-floating mx-1" for="form3Example4">Esqueceu a senha?</label>
@@ -65,14 +69,14 @@
                             <!-- Botão de entrar -->
                             <div class="text-center">
                                 <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-dark justify-content-center btn-lg btn-color" type="submit" style="width: 150px;">Voltar</a>
-                                <a class="btn btn-dark justify-content-center btn-lg btn-color" type="submit" style="width: 150px;">Entrar</a>
+                                <input class="btn btn-dark justify-content-center btn-lg btn-color" type="submit" style="width: 150px;" value="Entrar"/>
                             </div>
-                             @{
-                if (ViewBag.Error != null)
-                {
-                    <div>@ViewBag.Error</div>
-                }
-            }
+                            @{
+                                if (ViewBag.Error != null)
+                                {
+                                    <div>@ViewBag.Error</div>
+                                }
+                            }
                         </form>
                     </div>
                 </div>
@@ -83,7 +87,7 @@
 
 
 @section Scripts{
-        @{
-            await Html.RenderPartialAsync("_ValidationScriptsPartial");
-        }
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

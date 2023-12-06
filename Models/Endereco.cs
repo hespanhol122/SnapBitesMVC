@@ -1,4 +1,5 @@
-﻿using static System.Net.Mime.MediaTypeNames;
+﻿using SnapBites.Models;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Snapbites.Models
 {
@@ -23,7 +24,7 @@ namespace Snapbites.Models
         }
 
         public int idUsuario { get; set; }
-        public virtual Usuario Usuario { get; set; }
+        public virtual UsuarioViewModel Usuario { get; set; }
 
         /*private void LocalizarCEP()
         {

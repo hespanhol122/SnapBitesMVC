@@ -1,12 +1,13 @@
 ﻿using Snapbites.Models;
+using SnapBites.Models;
 
 namespace SnapBites.Services
 {
     public interface ISessao
     {
-        void addTokenLogin(Usuario usuario);
+        void addTokenLogin(UsuarioViewModel usuario);
 
-        Usuario getTokenLogin();
+        UsuarioViewModel getTokenLogin();
 
         void deleteTokenLogin();
     }

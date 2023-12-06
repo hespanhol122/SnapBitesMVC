@@ -15,9 +15,9 @@ namespace SnapBites.Repositories.ADO.SQLServer
             this.connectionString = connectionString;
         }
 
-        public List<Usuario> getAll() 
+        public List<UsuarioViewModel> getAll() 
         {
-            List<Usuario> usuarios = new List<Usuario>();
+            List<UsuarioViewModel> usuarios = new List<UsuarioViewModel>();
 
             using (SqlConnection connection = new SqlConnection(this.connectionString))
             {
@@ -32,7 +32,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
 
                     while (dr.Read())
                     {
-                        Usuario usuario= new  Usuario();
+                        UsuarioViewModel usuario= new  UsuarioViewModel();
 
                         usuario.idUsuario = (int)dr["id_user"];
                         usuario.nome = dr["nome_usuario"].ToString();
@@ -48,9 +48,9 @@ namespace SnapBites.Repositories.ADO.SQLServer
                 return usuarios;
         }
 
-        public Usuario getByIdUsuario(int id)
+        public UsuarioViewModel getByIdUsuario(int id)
         {
-            Usuario usuario = new Usuario();
+            UsuarioViewModel usuario = new UsuarioViewModel();
 
             using (SqlConnection connection = new SqlConnection(this.connectionString))
             {
@@ -78,7 +78,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
             return usuario;
         }
 
-        public void update(int id, Usuario usuario)
+        public void update(int id, UsuarioViewModel usuario)
         {
             using (SqlConnection connection = new SqlConnection(this.connectionString))
             {
@@ -98,7 +98,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
             }
         }
 
-        public void add(Usuario usuario)
+        public void add(UsuarioViewModel usuario)
         {
             using (SqlConnection connection = new SqlConnection(this.connectionString))
             {
@@ -142,7 +142,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
             }
         }
 
-        public bool check(Usuario usuario)
+        public bool check(UsuarioViewModel usuario)
         {
             bool result = false;
 
@@ -164,7 +164,7 @@ namespace SnapBites.Repositories.ADO.SQLServer
             return result;
         }
 
-        public LoginResultado getTipo(Usuario usuario)
+        public LoginResultado getTipo(UsuarioViewModel usuario)
         {
             Niveis niveis = new Niveis();
 

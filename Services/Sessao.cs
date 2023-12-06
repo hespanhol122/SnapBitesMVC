@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Snapbites.Models;
+using SnapBites.Models;
 
 namespace SnapBites.Services
 {
@@ -14,16 +15,16 @@ namespace SnapBites.Services
             this.tokenSessao = "usuario";
         }
 
-        public void addTokenLogin(Usuario usuario)
+        public void addTokenLogin(UsuarioViewModel usuario)
         {
             string loginTokenJson = JsonConvert.SerializeObject(usuario);
             this.httpContextAccessor.HttpContext?.Session.SetString(this.tokenSessao, loginTokenJson);
         }
 
-        public Usuario getTokenLogin() 
+        public UsuarioViewModel getTokenLogin() 
         {
             string? loginTokenJson = this.httpContextAccessor.HttpContext?.Session.GetString(this.tokenSessao);
-            return loginTokenJson != null ? JsonConvert.DeserializeObject<Usuario>(loginTokenJson) : null;
+            return loginTokenJson != null ? JsonConvert.DeserializeObject<UsuarioViewModel>(loginTokenJson) : null;
         }
 
         public void deleteTokenLogin()

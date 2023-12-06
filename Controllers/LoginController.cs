@@ -33,21 +33,20 @@ namespace SnapBites.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult LoginEntrar(Usuario usuario)
+        public IActionResult LoginEntrar(UsuarioViewModel usuario)
         {
-            if (usuario.nome == "admin" && usuario.senha == "1234")
+            if (!string.IsNullOrEmpty(usuario.nome) && !string.IsNullOrEmpty(usuario.senha))
             {
-                //if (this.repository.check(usuario))
-                //{
-                //    var loginResultado = repository.getTipo(usuario);
-                //    this.sessao.addTokenLogin(usuario);
+                if (this.repository.check(usuario))
+                {
+                    var loginResultado = repository.getTipo(usuario);
+                    this.sessao.addTokenLogin(usuario);
 
-                //    if (loginResultado.TipoUsuario == "1")
-                //        return RedirectToAction("Index", "Feed");
-                //    return RedirectToAction("Index", "Feed");
+                    //if (loginResultado.TipoUsuario == "1")
+                    //    return RedirectToAction("Index", "Feed");
+                    return RedirectToAction("Index", "Feed");
 
-                //}
+                }
                 ModelState.AddModelError(string.Empty, "Usuário e/ou Senha Inváilidos!");
 
                 return RedirectToAction("Feed", "Feed");

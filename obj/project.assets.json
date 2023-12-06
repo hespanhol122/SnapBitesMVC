@@ -2334,23 +2334,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2971392311015\\.nuget\\packages\\": {},
+    "C:\\Users\\hespa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\SnapBites.csproj",
+      "projectUniqueName": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\SnapBites.csproj",
       "projectName": "SnapBites",
-      "projectPath": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\SnapBites.csproj",
-      "packagesPath": "C:\\Users\\2971392311015\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2971392311015\\Documents\\GitHub\\SnapBitesMVC\\obj\\",
+      "projectPath": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\SnapBites.csproj",
+      "packagesPath": "C:\\Users\\hespa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\2971392311015\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hespa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2359,7 +2359,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2410,7 +2409,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
