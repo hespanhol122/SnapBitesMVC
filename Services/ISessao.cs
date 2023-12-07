@@ -1,5 +1,4 @@
-﻿using Snapbites.Models;
-using SnapBites.Models;
+﻿using SnapBites.Models;
 
 namespace SnapBites.Services
 {

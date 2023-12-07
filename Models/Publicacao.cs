@@ -1,6 +1,6 @@
-﻿using Snapbites.Models;
+﻿using SnapBites.Models;
 
-namespace Snapbites.Models
+namespace SnapBites.Models
 {
 
     public class Publicacao

@@ -96,6 +96,24 @@ footer[b-0o9bhs4aqy] {
     padding: 20px;
     text-align: center;
 }
+/* _content/SnapBites/Views/Shared/_LayoutFeedAdmin.cshtml.rz.scp.css */
+body[b-c7aiocnr90] {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+}
+
+.cor1[b-c7aiocnr90] {
+    background-color: #1B6607;
+}
+
+footer[b-c7aiocnr90] {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 /* _content/SnapBites/Views/Shared/_LayoutLogin.cshtml.rz.scp.css */
 body[b-r5uxl7gba2] {
     font-family: 'Space Grotesk', sans-serif;

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Identity.Client;
 using System;
 
-namespace Snapbites.Models
+namespace SnapBites.Models
 {
 
     public class perfilUsuario

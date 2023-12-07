@@ -1,0 +1,59 @@
+﻿@model SnapBites.Models.UsuarioViewModel
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+@section css {
+    <link rel="stylesheet" href="/css/Crud.css" />
+}
+
+
+
+
+
+<div class="m-5 row fundo">
+    <h2 class="mt-5">Editar</h2>
+    <div class="col-md-4 p-3">
+        <form asp-action="Editar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="idUsuario" class="control-label"></label>
+                <input asp-for="idUsuario" class="form-control" />
+                <span asp-validation-for="idUsuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nome" class="control-label"></label>
+                <input asp-for="nome" class="form-control" />
+                <span asp-validation-for="nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="senha" class="control-label"></label>
+                <input asp-for="senha" class="form-control" />
+                <span asp-validation-for="senha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="atividade" /> @Html.DisplayNameFor(model => model.atividade)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

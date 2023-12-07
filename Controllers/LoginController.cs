@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Snapbites.Models;
 using SnapBites.Models;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using SnapBites.Repositories.ADO.SQLServer;
 
 namespace SnapBites.Controllers
 {
@@ -42,14 +42,18 @@ namespace SnapBites.Controllers
                     var loginResultado = repository.getTipo(usuario);
                     this.sessao.addTokenLogin(usuario);
 
-                    //if (loginResultado.TipoUsuario == "1")
-                    //    return RedirectToAction("Index", "Feed");
-                    return RedirectToAction("Index", "Feed");
+                    if (loginResultado.TipoUsuario == "1")
+                        return RedirectToAction("Feed", "Admin");
+                    return RedirectToAction("Feed", "Feed");
 
                 }
-                ModelState.AddModelError(string.Empty, "Usuário e/ou Senha Inváilidos!");
+                else 
+                {
+                    ModelState.AddModelError("", "Usuário e/ou Senha Inváilidos!");
 
-                return RedirectToAction("Feed", "Feed");
+                    return RedirectToAction("Login", "Login");
+                }
+                
             }
             return View();
         }

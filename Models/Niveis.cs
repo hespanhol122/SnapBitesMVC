@@ -1,4 +1,4 @@
-﻿namespace Snapbites.Models
+﻿namespace SnapBites.Models
 {
     public class Niveis
     {

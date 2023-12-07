@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model SnapBites.Models.UsuarioViewModel
+
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -41,7 +43,7 @@
                             <a class="me-1" href="Meu_perfil.html">
                                 <img src="../imagens/account_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="">
                             </a>
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Juninho</h5>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">@Html.DisplayFor(Model => Model.nome)</h5>
                         </div>
                         <div class="">
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -58,10 +60,10 @@
                                 </button>
                             </form>
                             <li class="nav-item mt-3">
-                                <a class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
+                                <a asp-area="" asp-controller="Admin" asp-action="Feed" class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Publicar.html">Publicar</a>
+                                <a asp-area="" asp-controller="Admin" asp-action="Publicar" class="nav-link">Publicar</a>
                             </li>
                         </ul>
                     </div>

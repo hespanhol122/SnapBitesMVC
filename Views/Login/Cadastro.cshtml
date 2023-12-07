@@ -1,4 +1,6 @@
-﻿@{
+﻿@model SnapBites.Models.UsuarioViewModel
+
+@{
     ViewData["Title"] = "Pagina Cadastro";
 }
 
@@ -32,53 +34,60 @@
                 </div>
 
                 <!-- Email -->
-                <div class="input-group mb-4">
-                            <span class="input-group-text">
-                                <img src="~/imagens/alternate_email_FILL0_wght400_GRAD0_opsz24.svg" alt=""
-                                     width="17px" height="17px">
-                            </span>
-                  <div class="form-floating col">
-                    <input type="email" id="form3Example1" class="form-control" placeholder="Digite seu usuario" />
-                    <label for="form3Example1">Nome de usuário</label>
-                  </div>
-                </div>
+                <form asp-controller="Usuario" asp-action="Cadastro" method="post">
+                    <div class="input-group mb-4">
+                        <span class="input-group-text">
+                                    <img src="~/imagens/alternate_email_FILL0_wght400_GRAD0_opsz24.svg" alt=""
+                                         width="17px" height="17px">
+                        </span>
+                      <div class="form-floating col">
+                        <input asp-for="nome" id="form3Example1" class="form-control" placeholder="Digite seu usuario" />
+                        <label asp-for="nome" for="form3Example1">Nome de usuário</label>
+                      </div>
+                    </div>
 
-                <div class="input-group mb-4">
-                  <span class="input-group-text"><img src="~/imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt=""
-                      width="17px" height="17px"></span>
-                  <div class="form-floating col">
-                    <input type="email" id="form3Example2" class="form-control" placeholder="nome@exemplo.com" />
-                    <label for="form3Example2">E-mail</label>
-                  </div>
-                </div>
+                    <div class="input-group mb-4">
+                      <span class="input-group-text"><img src="~/imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                          width="17px" height="17px"></span>
+                      <div class="form-floating col">
+                        <input asp-for="email" type="email" id="form3Example2" class="form-control" placeholder="nome@exemplo.com" />
+                        <label asp-for="email"  for="form3Example2">E-mail</label>
+                      </div>
+                    </div>
 
-                <div class="input-group mb-4">
-                  <span class="input-group-text"><img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
-                      width="17px" height="17px"></span>
-                  <div class="form-floating col">
-                    <input type="email" id="form3Example3" class="form-control" placeholder="Digite sua senha" />
-                    <label for="form3Example3">Senha</label>
-                  </div>
-                </div>
+                    <div class="input-group mb-4">
+                      <span class="input-group-text"><img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                          width="17px" height="17px"></span>
+                      <div class="form-floating col">
+                        <input asp-for="senha" type="password" id="form3Example3" class="form-control" placeholder="Digite sua senha" />
+                        <label asp-for="senha" for="form3Example3">Senha</label>
+                      </div>
+                    </div>
 
-                <!-- Senha -->
-                <div class="input-group mb-4">
-                  <span class="input-group-text"><img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
-                      width="17px" height="17px"></span>
-                  <div class="form-floating col">
-                    <input type="password" id="form3Example4" class="form-control" placeholder="Confirme sua senha" />
-                    <label for="form3Example4">Confirme sua senha</label>
-                  </div>
-                </div>
+                    <!-- Senha -->
+                    <div class="input-group mb-4">
+                      <span class="input-group-text"><img src="~/imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt=""
+                          width="17px" height="17px"></span>
+                      <div class="form-floating col">
+                        <input type="password" id="form3Example4" class="form-control" placeholder="Confirme sua senha" />
+                        <label   for="form3Example4">Confirme sua senha</label>
+                      </div>
+                    </div>
 
 
-                <!-- Botão de entrar -->
-                <div class="text-center">
-                            <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" asp-area="" asp-controller="Home" asp-action="Index"
-                    style="width: 150px;">Voltar</a>
-                  <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" asp-area="" asp-controller="Login" asp-action="Interesses"
-                    style="width: 150px;">Cadastre-se</a>
-                </div>
+                    <!-- Botão de entrar -->
+                    <div class="text-center">
+                                <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" asp-area="" asp-controller="Home" asp-action="Index"
+                        style="width: 150px;">Voltar</a>
+                      <input class="btn btn-dark justify-content-center btn-lg btn-color" type="submit" style="width: 150px;" value="Cadastrar-se"/>
+                    </div>
+                            @{
+                                if (ViewBag.Error != null)
+                                {
+                                    <div>@ViewBag.Error</div>
+                                }
+                            }
+                </form>
               </div>
             </div>
           </div>

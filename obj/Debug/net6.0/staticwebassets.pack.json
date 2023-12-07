@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SnapBites.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\Crud.css",
+      "PackagePath": "staticwebassets\\css\\Crud.css"
+    },
+    {
       "Id": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\Interesses.css",
       "PackagePath": "staticwebassets\\css\\Interesses.css"
     },

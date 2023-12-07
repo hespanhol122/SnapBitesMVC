@@ -18,12 +18,7 @@ namespace SnapBites.Controllers
             return View();
         }
 
-        public IActionResult FeedPg2()
-        {
-            return View();
-        }
-
-        public IActionResult FeedPg3()
+        public IActionResult Publicar()
         {
             return View();
         }

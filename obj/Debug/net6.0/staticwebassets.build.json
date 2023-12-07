@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u+SV8eZwyNUqd6L80KhJqwY8fIRwpxYGrNCB7SiXnug=",
+  "Hash": "cudy+YrNxLo1HKcA2WbWeTlwXqneYOL3q0gL/kCVgWI=",
   "Source": "SnapBites",
   "BasePath": "_content/SnapBites",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SnapBites.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\Crud.css",
+      "SourceId": "SnapBites",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\",
+      "BasePath": "_content/SnapBites",
+      "RelativePath": "css/Crud.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Crud.css"
     },
     {
       "Identity": "C:\\Users\\hespa\\source\\repos\\SnapBites\\SnapBitesMVC\\wwwroot\\css\\feed.css",

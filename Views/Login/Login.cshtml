@@ -34,7 +34,7 @@
 
                         <!-- Email -->
                         <form asp-controller="Login" asp-action="LoginEntrar" method="post">
-
+                            @Html.ValidationSummary()
                             <span asp-validation-for="nome" class="text-danger"></span>
                             <div class="input-group mb-4">
                                 <span class="input-group-text">

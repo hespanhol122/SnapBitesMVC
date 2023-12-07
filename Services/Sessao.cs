@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using Snapbites.Models;
 using SnapBites.Models;
 
 namespace SnapBites.Services

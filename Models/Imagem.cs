@@ -1,12 +1,12 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Snapbites.Models
+namespace SnapBites.Models
 {
 
     public class Imagem
     {
-        private int idImagem { get; set; }
-        private string imagemUrl { get; set; }
+        public int idImagem { get; set; }
+        public string imagemUrl { get; set; }
 
         public Imagem()
         {

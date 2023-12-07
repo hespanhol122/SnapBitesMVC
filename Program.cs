@@ -1,7 +1,14 @@
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using SnapBites.Models;
+using SnapBites.Repositories;
+using System.Configuration;
+using System.Numerics;
+
 namespace SnapBites
 {
     public class Program
     {
+        
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
@@ -42,7 +49,6 @@ namespace SnapBites
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
-
             app.Run();
         }
     }
